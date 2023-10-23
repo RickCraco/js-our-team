@@ -63,18 +63,15 @@ function printCol(member) {
 
 const btn = document.querySelector('button');
 btn.addEventListener('click', function () {
-    const newCat = {
+    const newMember = {
         name: document.getElementById('name').value,
-        breed: document.getElementById('breed').value,
-        color: document.getElementById('color').value,
-        age: document.getElementById('age').value,
-        sex: document.getElementById('sex').value,
-        picture: document.getElementById('picture').value,
+        role: document.getElementById('role').value,
+        picture: document.getElementById('picture').value
     }
 
-    console.log(newCat);
-    cats.push(newCat);
-    printCol(newCat);
+    console.log(newMember);
+    cats.push(newMember);
+    printCol(newMember);
     reset();
 });
 
