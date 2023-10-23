@@ -45,7 +45,7 @@ function printCol(member) {
     const col = document.createElement('div');
     col.classList.add('col-4')
     const template = `
-        <div class="card text-start m-3">
+        <div class="card text-start m-2">
           <img class="card-img-top" src="img/${member.picture}" alt="Title">
           <div class="card-body">
             <h4 class="card-title">${member.name}</h4>
