@@ -7,7 +7,7 @@ const team = [
     {
         name: 'Angela Caroll',
         role: 'Chief Editor',
-        picture: ''
+        picture: '../img/angela-caroll-chief-editor.jpg'
     },
     {
         name: 'Walter Gordon',
