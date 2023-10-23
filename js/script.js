@@ -12,22 +12,22 @@ const team = [
     {
         name: 'Walter Gordon',
         role: 'Office manager',
-        picture: ''
+        picture: '../img/walter-gordon-office-manager.jpg'
     },
     {
         name: 'Angela Lopez',
         role: 'Social Media manager',
-        picture: ''
+        picture: '../img/angela-lopez-social-media-manager.jpg'
     },
     {
         name: 'Scott Estrada',
         role: 'Developer',
-        picture: ''
+        picture: '../img/scott-estrada-developer.jpg'
     },
     {
         name: 'Barbara Ramos',
         role: 'Graphic Designer',
-        picture: ''
+        picture: '../img/barbara-ramos-graphic-designer.jpg'
     }
 ];
 
