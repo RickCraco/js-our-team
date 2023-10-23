@@ -2,7 +2,7 @@ const team = [
     {
         name: 'Wayne Barnett',
         role: 'founder & CEO',
-        picture: ''
+        picture: '../img/wayne-barnett-founder-ceo.jpg'
     },
     {
         name: 'Angela Caroll',
