@@ -86,7 +86,7 @@ const btn = document.querySelector('button');
 btn.addEventListener('click', function () {
 
     //variante usando la classe Member
-    const newMember = new Member(document.getElementById('name').value, document.getElementById('role').value, document.getElementById('picture').value)
+    const newMember = new Member(document.getElementById('name').value, document.getElementById('role').value, document.getElementById('picture').value);
 
     /*
     const newMember = {
