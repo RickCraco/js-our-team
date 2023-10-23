@@ -1,3 +1,23 @@
+//variante utilizzando una classe Membro che abbia le stesse proprieta' degli oggetti usati precedentemente
+
+class Member{
+    constructor(nome, ruolo, picture){
+        this.name = nome;
+        this.role = ruolo;
+        this.picture = picture;
+    }
+}
+
+const team = [
+    new Member('Wayne Barnett', 'founder & CEO', '../img/wayne-barnett-founder-ceo.jpg'), 
+    new Member('Angela Caroll', 'Chief Editor', '../img/angela-caroll-chief-editor.jpg'),
+    new Member('Walter Gordon', 'Office manager', '../img/walter-gordon-office-manager.jpg'),
+    new Member('Angela Lopez','Social Media manager','../img/angela-lopez-social-media-manager.jpg'),
+    new Member('Scott Estrada','Developer','../img/scott-estrada-developer.jpg'),
+    new Member('Barbara Ramos','Graphic Designer','../img/barbara-ramos-graphic-designer.jpg')
+]
+
+/*
 const team = [
     {
         name: 'Wayne Barnett',
@@ -30,6 +50,7 @@ const team = [
         picture: '../img/barbara-ramos-graphic-designer.jpg'
     }
 ];
+*/
 
 const rowEl = document.querySelector('.row');
 console.log(rowEl);
@@ -63,11 +84,17 @@ function printCol(member) {
 
 const btn = document.querySelector('button');
 btn.addEventListener('click', function () {
+
+    //variante usando la classe Member
+    const newMember = new Member(document.getElementById('name').value, document.getElementById('role').value, document.getElementById('picture').value)
+
+    /*
     const newMember = {
         name: document.getElementById('name').value,
         role: document.getElementById('role').value,
         picture: document.getElementById('picture').value
     }
+    */
 
     console.log(newMember);
     team.push(newMember);
