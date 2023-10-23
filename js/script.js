@@ -70,7 +70,7 @@ btn.addEventListener('click', function () {
     }
 
     console.log(newMember);
-    cats.push(newMember);
+    team.push(newMember);
     printCol(newMember);
     reset();
 });
