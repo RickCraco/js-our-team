@@ -41,21 +41,16 @@ for (let i = 0; i < team.length; i++) {
 }
 
 
-function printCol(cat) {
+function printCol(member) {
     const col = document.createElement('div');
     col.classList.add('col-4')
     const template = `
         <div class="card text-start">
-          <img class="card-img-top" src="img/${cat.picture}" alt="Title">
+          <img class="card-img-top" src="img/${member.picture}" alt="Title">
           <div class="card-body">
-            <h4 class="card-title">${cat.name}</h4>
+            <h4 class="card-title">${member.name}</h4>
             <p class="card-text">
-                <ul>
-                    <li>Breed: ${cat.breed}</li>
-                    <li style= "background-color: ${cat.color}">Color: ${cat.color}</li>
-                    <li>Age: ${cat.age}</li>
-                    <li>Sex: ${cat.sex}</li>
-                </ul>
+               ${member.role}
             </p>
           </div>
         </div>
