@@ -77,9 +77,6 @@ btn.addEventListener('click', function () {
 
 function reset() {
     document.getElementById('name').value = '';
-    document.getElementById('breed').value = '';
-    document.getElementById('color').value = '';
-    document.getElementById('age').value = '';
-    document.getElementById('sex').value = '';
+    document.getElementById('role').value = '';
     document.getElementById('picture').value = '';
 }
